@@ -1,0 +1,61 @@
+
+/* CSS: Cascading Style Sheets */
+
+#principais-estilos{
+    background-color: antiquewhite;
+    color: black;
+    padding: 10px;
+    margin: 10px 25px;
+    /* border: 1px solid black; */
+    border-radius: 15px;
+}
+
+#principais-estilos .paragrafo{
+    background-color: rgb(191, 255, 255);
+    color: black;
+    line-height: 1.5;
+    font-family: 'Times New Roman';
+    font-size: 1.2em;
+}
+
+#flexbox{
+    background-color: rgb(255, 255, 255);
+    color: rgb(10, 10, 10);
+}
+
+#flexbox .container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center; 
+    /* LINE - Alinhamento horizontal * /
+    /* COLUMN - Alinhamento vertical */
+    align-items: flex-end; 
+    /* LINE - Alinhamento vertical * /
+    /* COLUMN - Alinhamento horizontal */
+}
+#flexbox .container .box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(9, 255, 0);
+}
+
+#flexbox .container .box2{
+    width: 200px;
+    height: 400px;
+    background-color: rgb(26, 79, 255);
+}
+
+#grid-layout .container-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+#grid-layout .container-grid .caixa{
+    /* width: 200px; */
+    height: 200px;
+    background-color: blueviolet;
+}
