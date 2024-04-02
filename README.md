@@ -9,4 +9,10 @@ Este foi o principal projeto do módulo: uma simples página de portifólio.
 
 <img src="modulo1/codigoModulo1.png" alt="Página de portifólio feita para o módulo 1" style="max-height: 300px;">
 
-## Próximo módulo: Javascript
+## Módulo 2: Javascript
+
+Aprendi sobre a integraçao do Javascript com o HTML, sobre funções e sobre programação assíncrona.
+
+## Módulo 3: TypeScript, POO e Browser APIs
+
+Em andamento.
