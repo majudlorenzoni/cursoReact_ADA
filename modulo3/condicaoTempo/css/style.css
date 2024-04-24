@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+:root {
+  --clear-gradient: linear-gradient(to bottom, rgba(133, 231, 255, 0.397), #b1dafc, #41a4f5)  ;
+  --rain-gradient: linear-gradient(to bottom, #001c50, #56686d);
+  --clouds-gradient: linear-gradient(to bottom, #bdc3c7, #2c3e50);
+  --default-gradient: linear-gradient(to bottom, #fae8ff, #fae8ff);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,8 +14,8 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #222222;
+  font-family: "Roboto Slab", serif;
+  background: var(--default-gradient);
   color:white;
   display: flex;
   justify-content: center;
@@ -14,17 +23,66 @@ body {
   height: 100vh;
 }
 
+#sol {
+  display: none; /* Inicialmente oculto */
+  width: 100px; /* Largura da imagem do sol */
+  height: 100px; /* Altura da imagem do sol */
+  position: absolute;
+  left: 0; /* Alinha o sol ao canto esquerdo da tela */
+  top: 5%; /* Centraliza verticalmente o sol */
+  transform: translateY(-50%); /* Ajusta a posição vertical do sol */
+}
+ 
+.clear {
+  background: var(--clear-gradient);
+}
+
+.clear #sol {
+  display: block; /* Exibe o sol quando o clima está limpo */
+  animation: sunAnimation 9s linear infinite; /* Aplica a animação ao corpo da página */
+}
+
+.rain {
+  background: var(--rain-gradient);
+}
+
+.clouds {
+  background: var(--clouds-gradient);
+}
+
+@keyframes sunAnimation {
+  0% {
+    transform: translateX(0), translateX(calc(100vw + 0px));
+  }
+
+  25% {
+    transform: translateX(calc(100vw + 0px)), translateY(6px) rotate(9deg);
+  }
+  
+  75% {
+    transform: translateX(calc(100vw + 0px)), translateY(-4px) rotate(-5deg);
+  }
+  100% {
+    transform: translateX(calc(100vw + 0px));
+  }
+}
+
+.clear .main {
+  background-color: #3379be;
+}
+
+
 main {
   padding: 2rem;
   border-radius: 10px;
-  background-color: #333333;
+  background-color: #8d0f0f;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   max-width: 700px;
 }
 
 main h1 {
   font-size: 3rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 main #busca form {
@@ -43,7 +101,8 @@ main #busca input {
 }
 
 main #busca button {
-  background-color: #395e1a;
+  font-family: "Roboto Slab", serif;
+  background-color: #384cc0;
   color: white;
   border: none;
   border-radius: 5px;
@@ -52,7 +111,7 @@ main #busca button {
 }
 
 main #busca button:hover {
-  background-color: #4b6e2c;
+  background-color: #25348b;
 }
 
 main #tempo-info .tempo-dados{
@@ -69,3 +128,4 @@ main #tempo-info .tempo-dados h2{
 main #tempo-info .tempo-dados span{
   font-size: 50px;
 }
+

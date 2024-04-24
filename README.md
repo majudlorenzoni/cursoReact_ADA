@@ -15,4 +15,8 @@ Aprendi sobre a integraçao do Javascript com o HTML, sobre funções e sobre pr
 
 ## Módulo 3: TypeScript, POO e Browser APIs
 
-Em andamento.
+Aprendi a configurar as condições de ambietne para utilizar Typescript e integração com APIs.
+
+O principal projeto do módulo foi uma página para verificar o clima no momento que o usuário pesquisa pela cidade desejada.
+
+<img src="condicaoTempo.png" alt="Página de condição do tempo feita para o módulo 3" style="max-height: 300px;">
