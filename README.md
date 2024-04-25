@@ -20,3 +20,6 @@ Aprendi a configurar as condições de ambietne para utilizar Typescript e integ
 O principal projeto do módulo foi uma página para verificar o clima no momento que o usuário pesquisa pela cidade desejada.
 
 <img src="condicaoTempo.png" alt="Página de condição do tempo feita para o módulo 3" style="max-height: 300px;">
+
+## Módulo 4: React I: Introdução e Componentes em Classe 
+Em andamento.
