@@ -2,7 +2,7 @@ import React from 'react';
 import logoImg from '../../assets/images/img1.png';
 import "./styles.css"
 
-class Navbar extends React.Component {
+export class Navbar extends React.Component {
   render(){
     return (
       <header>

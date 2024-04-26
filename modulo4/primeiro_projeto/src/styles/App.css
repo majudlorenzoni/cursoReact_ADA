@@ -15,3 +15,15 @@ body{
 a {
   text-decoration: none;
 }
+section#articles{
+  margin-top: 2rem;
+  max-width: 1240px;
+  padding: 2rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+section#articles img{
+  width: 300px;
+  border-radius: 10px;
+}
