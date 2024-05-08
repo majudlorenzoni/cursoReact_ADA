@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>Maria Júlia Lorenzoni - CV</title>
+  <link rel="stylesheet" href="./Maria Júlia Lorenzoni - CV_files/cv.css">
+  <link rel="stylesheet" href="./Maria Júlia Lorenzoni - CV_files/font-awesome.min.css">
+</head>
+<body>
+  <div id="resumeactual">
+    <div id="cvmain" style="width:860px;">
+      <div class="header">
+        <h1 id="title">Maria Júlia Lorenzoni</h1>
+        <div class="r">
+          <a title="GitHub" target="_blank" href="https://github.com/majudlorenzoni"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+          <a title="Mail me" target="_blank" href="mailto:juliamaria892@gmail.com"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a>
+          <a title="Linkedin" target="_blank" href="https://www.linkedin.com/in/maria-j%C3%BAlia-lorenzoni-b09489230/"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+          <p class="nome"><span class="value">Maria Júlia Duarte Lorenzoni</span></p>
+          <p class="phone"><span class="value">+55 55 9719-7665</span></p>
+        </div>
+        <div class="clear"></div>
+        <hr style="border: 1px solid #000; margin-top: 10px;  margin-bottom: 20px;">
+        <div class="basic-info section">
+        <div class="set">
+            <div class="clear"> </div>
+          </div>
+          <div class="clear"> </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2 class="title"></h2>
+        <div class="set">
+          <div class="item">
+            <span class="info"></span>
+          </div>
+        </div>
+        <div class="clear"> </div>
+      </div>
+
+        <div class="section">
+          <h2 class="title">RESUMO</h2>
+          <div class="set">
+            <div class="item">
+              <span class="info">
+                Maria Júlia Duarte Lorenzoni é estudante de Ciência da Computação na UFPEL e bolsista do Programa Educação Tutorial Computação, onde demonstra habilidades de liderança e colaboração em projetos inovadores. Atualmente, ela está aprimorando suas habilidades como desenvolvedora e se dedica à pesquisa em Computação Gráfica. 
+                Além de sua paixão pela tecnologia, Maria Júlia também nutre um interesse pela arte e pelo desenho. 
+                Está buscando oportunidades para ingressar no mercado de trabalho enquanto se aprimora através de cursos de desenvolvimento, como o curso Front-end em React da Ada Tech e o curso Back-end com Java do Santander.
+
+
+                <div></div>
+							</span>
+            </div>
+          </div>
+          <div class="clear"> </div>
+        </div>
+
+        <div class="section" id="expitem">
+          <br><h2 class="title">EXPERIÊNCIA PROFISSIONAL         </h2>
+          <div class="set">
+            <div class="item">
+       <!--       <h3><span class="company 4">Thoughtworks</span>
+                <span class="date r"> March 2020 - Currently</span>
+              </h3>
+              <div class="clear"> </div>
+              <span class="job_title">Consultant Developer</span>
+              <div class="clear"> </div> -->
+              <span class="info">
+                Maria Júlia atualmente não possui experiência profissional, mas está ativamente buscando entrar na área e adquirir
+conhecimento prático.
+           </span>
+            </div>
+
+          </div>
+        </div> 
+
+        <div class="section" id="volunteering">
+          <br><h2 class="title">BOLSISTA</h2>
+          <div class="set">
+
+
+          <div class="item">
+            <h3><span class="company l">Universidade Federal de Pelotas</span>
+              <span class="date r">2022 - Atualmente</span>
+            </h3>
+            <div class="clear"> </div>
+            <span class="job_title">Programa de Educação Tutorial Computação  </span>
+            <div class="clear"> </div>
+            <span class="info">
+              
+              Como bolsista do Programa de Educação Tutorial, desempenhei um papel ativo em projetos inovadores e desafiadores, colaborando estreitamente com professores e colegas para ampliar minha motivação e capacidade produtiva. Um destaque significativo foi meu envolvimento no projeto Gurias da Comp, reconhecido pela SBC, onde trabalhei para melhorar a experiência acadêmica das estudantes de graduação em computação. Organizei workshops, palestras e encontros mensais para cultivar um ambiente inclusivo e colaborativo para mulheres na área de tecnologia. Além disso, contribuí para o projeto Compile.academic, oferecendo suporte complementar para aulas de programação, com o objetivo de auxiliar alunos com dificuldades nessas disciplinas.
+Colaborei também com a Pró-Reitoria de Assuntos Estudantis em um curso de informática básica chamado Inclusão Digital e Diversidade na UFPel, buscando ampliar o acesso ao conhecimento e promover a inclusão no ambiente acadêmico.
+<!-- Essas experiências foram fundamentais para o desenvolvimento das minhas habilidades de liderança, colaboração e comprometimento com a promoção do desenvolvimento humano, social e econômico na região. -->
+            </span>
+          </div>
+
+          </div>
+        </div>
+
+        <div class="section" id="volunteering">
+          <br><h2 class="title">PESQUISA</h2>
+          <div class="set">
+
+          <div class="item">
+            <h3><span class="company l">Universidade Federal de Pelotas</span>
+              <span class="date r">2023 - Atualmente</span>
+            </h3>
+            <div class="clear"> </div>
+            <span class="job_title">
+              Computação Gráfica</span>
+            <div class="clear"> </div>
+            <span class="info">
+Maria Júlia atualmente é pesquisadora de computação gráfica estudando métodos para controlar o movimento de personagens em ambientes virtuais complexos.
+            </span>
+          </div>
+          
+        <div class="section">
+          <br><h2 class="title">Skills</h2>
+          <div class="set">
+            <div class="item">
+              <ul>
+                <label>Programação</label>
+                <li>HTML5 </li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>Ruby</li>
+                <li>PostgreSQL</li>
+                <li>Unity</li>
+                <li>C</li>
+                <li>C++</li>
+                <li>React</li>
+                <li>Java</li>
+                <br>
+                <label>Linguagens</label>
+                <li>Português</li>
+                <li>Inglês (Intermediário)</li>
+                <br>
+              </ul>
+            </div>
+          </div>
+          <div class="clear"> </div>
+        </div>
+        <div class="section section-education" id="eduitem">
+          <h2 class="title">Educação</h2>
+          <div class="set">
+            <div class="item">
+              <h3>
+                <span class="course l">Ciência da Computação</span>
+                <span class="date r">2021 — 2025</span>
+              </h3>
+              <div class="clear"> </div>
+              <span class="school">Universidade Federal de Pelotas</span>
+              <div class="clear"></div>
+            </div>
+          </div>
+          <div class="clear"> </div>
+        </div>
+      </div>
+    </div>
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</div></div></body></html>

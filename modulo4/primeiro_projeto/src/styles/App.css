@@ -21,6 +21,9 @@ section#articles{
   padding: 2rem;
   margin-right: auto;
   margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
 }
 
 section#articles img{
